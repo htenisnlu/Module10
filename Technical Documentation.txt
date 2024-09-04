@@ -1,0 +1,60 @@
+**Game Technical Documentation**
+
+1. **Where the Code is Hosted**
+   The game code is hosted on a GitHub repository. You can find the repository at the following link:
+
+   GitHub Repository: https://github.com/YourRepositoryLinkHere
+
+   its also shared a console session called Hikmet Tenis Adventure Game with you on PythonAnywhere.
+
+   You can join it at https://www.pythonanywhere.com/shared_console/3e569010-87f0-49e3-a8b8-c977614984ca
+
+2. **External Services**
+   There are no external services used in this game at the moment. The game runs entirely as a standalone Python application.
+
+3. **Languages and Technologies**
+   - **Programming Language**: Python
+   - **Modules Used**: Standard Python libraries (such as `sys`, `random`), along with any additional libraries used to handle player input and game logic.
+   - **Game Structure**: The game is structured in multiple Python scripts corresponding to each chapter and the professor character, plus the main file (`start.py`) that initiates the game.
+
+4. **System Requirements and Supported Applications**
+   - **Operating System**: The game is platform-independent and can run on Windows, macOS, and Linux, as long as Python 3.x is installed.
+   - **Python Version**: Python 3.x (preferably 3.7 or higher)
+   - **Required Packages**: No external packages required; all standard libraries should suffice.
+
+5. **Coding/Naming Conventions**
+   - **Variables and Functions**: Follow `snake_case` (e.g., `player_name`, `start_game`).
+   - **Classes**: Follow `CamelCase` (e.g., `Professor`, `Character`).
+   - **Constants**: Use all caps (e.g., `MAX_LIVES = 3`).
+   - **File Naming**: Files are named according to their content (e.g., `chapter1.py`, `professor.py`).
+
+6. **How to Run/Build/Deploy the Program**
+   To run the program:
+   1. Ensure you have Python 3.x installed.
+   2. Clone or copy the repository to your local machine.
+   3. Navigate to the folder where the files are located using the command line.
+   4. Run the following command:
+      ```bash
+      python3 start.py
+      ```
+      This will initiate the game.
+
+   No build or deployment is required since the game runs as a script directly from the Python interpreter.
+
+7. **Overview of the Architecture**
+   The game consists of multiple Python files, each corresponding to different chapters and characters:
+   - **`start.py`**: This is the main file that starts the game.
+   - **`chapter1.py` to `chapter6.py`**: These files contain the code for each chapter of the game.
+   - **`professor.py`**: This file contains the `Professor` character and defines their properties and actions within the game.
+   
+   All characters, including the professor and player, have certain properties like weapons and health. Chapters are linked in a sequence, advancing the storyline as the player progresses through challenges.
+
+8. **How to Start the Program (Start the Game)**
+   1. Make sure you are in the correct directory where the game files are stored.
+   2. Run the command:
+      ```bash
+      python3 start.py
+      ```
+   3. The game will prompt you to make choices and proceed through each chapter. The `Professor` character will be introduced at the appropriate point in the game.
+
+   
