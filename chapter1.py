@@ -8,7 +8,7 @@ Chapter 1 Module
 This module contains the functions for Chapter 1 of the game,
 including the game's initial setup and the first major decisions.
 """
-import professor
+from professor import Professor
 import chapter2
 def start_game():
     """Initialize the game and prompt the user for their username."""
